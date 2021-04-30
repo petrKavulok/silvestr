@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("img/betlem.jpeg");
+  background-size: 900px;
+  background-repeat: no-repeat;
+  font-family: "Romanesco", cursive;
+  color: rgb(236, 236, 236);
+}
+
+img {
+  width: 220px;
+  position: fixed;
+  right: 200px;
+  top: 350px;
+  transform: rotate(90deg);
+}
+
+.text {
+  height: 900px;
+  width: 400px;
+  text-align: center;
+  padding-top: 150px;
+}
+
+h1 {
+  font-size: 80px;
+  text-shadow: 5px 5px 6px #000000;
+}
+
+p {
+  font-size: 40px;
+  text-shadow: 5px 5px 6px #000000;
+}
+
+.hall {
+  position: fixed;
+  right: 120px;
+  top: 40px;
+  transform: rotate(20deg);
+  text-shadow: 5px 5px 6px #201b1b;
+  /* text-transform: uppercase; */
+}
+
+.circle {
+  position: fixed;
+  right: 100px;
+  top: 35px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: red;
+  z-index: -1;
+}
+
+.outline {
+  position: fixed;
+  right: 105px;
+  top: 40px;
+  width: 130px;
+  height: 130px;
+  border: 3px dashed white;
+  border-radius: 50%;
+  background-color: red;
+  z-index: -1;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: red;
+  color: white;
+  /* border: 3px solid rgb(248, 152, 152); */
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px white;
+  margin-top: 30px;
+}
